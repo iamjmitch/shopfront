@@ -4,3 +4,12 @@ body {
   margin: 0 auto;
   padding: 20px 60px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
