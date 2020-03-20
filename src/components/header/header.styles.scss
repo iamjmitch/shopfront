@@ -3,11 +3,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 
   .logo-container {
     height: 100%;
     width: 150px;
+    padding-left: 7.5px;
   }
 
   .options {
@@ -21,6 +22,10 @@
       padding: 10px 15px;
       text-decoration: none;
       font-weight: bolder;
+
+      &:hover {
+        color: #9c39ac;
+      }
     }
   }
 }
